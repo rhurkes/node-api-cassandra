@@ -1,0 +1,6 @@
+{
+  "serverPort": 8080,
+  "redskyBaseURL": "http://redsky.target.com/v1/pdp/tcin",
+  "dbKeyspace": "node_api_cassandra",
+  "dbHost": "db"
+}

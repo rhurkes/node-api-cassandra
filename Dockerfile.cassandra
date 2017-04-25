@@ -1,0 +1,5 @@
+FROM cassandra:3.10
+RUN mkdir /db
+WORKDIR /db
+COPY scripts/init_db.cql /db/
+EXPOSE 9042
